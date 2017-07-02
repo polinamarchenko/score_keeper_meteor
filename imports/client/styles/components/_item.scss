@@ -1,0 +1,35 @@
+$green: #7de1b2;
+$green-alt: darken($green, 25%);
+$lightgreen: #c3f1db;
+$lightgreen-alt: darken($lightgreen, 25%);
+$yellow: #fbfbc8;
+$yellow-alt: darken($yellow, 25%);
+
+.item {
+  padding: 1.2rem;
+  margin-bottom: 0.5rem;
+  background: white;
+  border: 0.2rem solid #e8e8e8;
+  border-radius: 1rem;
+}
+
+.item--position-1 {
+  background: $green;
+  border: $green-alt;
+}
+
+.item--position-2 {
+  background: $lightgreen;
+  border: $lightgreen-alt;
+}
+
+.item--position-3 {
+  background: $yellow;
+  border: $yellow-alt;
+}
+
+//BEM - Block Element Modifier
+.item__message {
+  color: #F84B66;
+  text-align: center;
+}

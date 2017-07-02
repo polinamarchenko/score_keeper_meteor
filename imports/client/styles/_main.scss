@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%; //so our base font size is 10px
+}
+
+body {
+  color: #555;
+  font-family: Helvetica, Arial, sans-serif;
+  background: #f2f2f2;
+  font-size: 1.6rem;
+}
+
+input {
+  font-size: 1.3rem;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 2.8rem;
+}
+
+@import './components/titleBar';
+@import './components/wrapper';
+@import './components/item';
+@import './components/button';
+@import './components/player';
+@import './components/form';
